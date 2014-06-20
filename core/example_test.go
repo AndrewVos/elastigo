@@ -14,10 +14,11 @@ package core_test
 import (
 	"bytes"
 	"fmt"
-	"github.com/mattbaird/elastigo/api"
-	"github.com/mattbaird/elastigo/core"
 	"strconv"
 	"time"
+
+	"github.com/AndrewVos/elastigo/api"
+	"github.com/AndrewVos/elastigo/core"
 )
 
 // The simplest usage of background bulk indexing

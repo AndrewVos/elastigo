@@ -14,7 +14,8 @@ package core
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/mattbaird/elastigo/api"
+
+	"github.com/AndrewVos/elastigo/api"
 )
 
 // Validate allows a user to validate a potentially expensive query without executing it.

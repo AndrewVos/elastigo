@@ -14,12 +14,13 @@ package search
 import (
 	"encoding/json"
 	"fmt"
-	u "github.com/araddon/gou"
-	"github.com/mattbaird/elastigo/api"
-	"github.com/mattbaird/elastigo/core"
 	"log"
 	"strconv"
 	"strings"
+
+	"github.com/AndrewVos/elastigo/api"
+	"github.com/AndrewVos/elastigo/core"
+	u "github.com/araddon/gou"
 )
 
 var (

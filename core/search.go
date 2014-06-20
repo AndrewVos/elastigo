@@ -14,9 +14,10 @@ package core
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/mattbaird/elastigo/api"
 	"strconv"
 	"strings"
+
+	"github.com/AndrewVos/elastigo/api"
 )
 
 var (

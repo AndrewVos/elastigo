@@ -16,12 +16,13 @@ package main
 import (
 	"encoding/json"
 	"flag"
-	"github.com/mattbaird/elastigo/api"
-	"github.com/mattbaird/elastigo/cluster"
-	"github.com/mattbaird/elastigo/core"
-	"github.com/mattbaird/elastigo/indices"
 	"log"
 	"time"
+
+	"github.com/AndrewVos/elastigo/api"
+	"github.com/AndrewVos/elastigo/cluster"
+	"github.com/AndrewVos/elastigo/core"
+	"github.com/AndrewVos/elastigo/indices"
 )
 
 var (

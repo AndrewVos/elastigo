@@ -14,9 +14,10 @@ package indices
 import (
 	"encoding/json"
 	"fmt"
-	api "github.com/mattbaird/elastigo/api"
 	"reflect"
 	"strings"
+
+	api "github.com/AndrewVos/elastigo/api"
 )
 
 type Mapping map[string]MappingOptions

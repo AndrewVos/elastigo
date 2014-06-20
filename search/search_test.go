@@ -13,11 +13,12 @@ package search
 
 import (
 	"fmt"
-	"github.com/araddon/gou"
-	"github.com/bmizerany/assert"
-	"github.com/mattbaird/elastigo/core"
 	"log"
 	"testing"
+
+	"github.com/AndrewVos/elastigo/core"
+	"github.com/araddon/gou"
+	"github.com/bmizerany/assert"
 )
 
 var (
